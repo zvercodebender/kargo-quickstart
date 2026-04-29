@@ -13,6 +13,8 @@ spec:
       labels:
         app: guestbook-simple
     spec:
+      imagePullSecrets:
+        - name: ghcr-creds
       containers:
       - image: ghcr.io/zvercodebender/guestbook:latest
         name: guestbook-simple
