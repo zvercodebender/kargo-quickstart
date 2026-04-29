@@ -16,7 +16,7 @@ spec:
       imagePullSecrets:
         - name: ghcr-creds
       containers:
-      - image: ghcr.io/zvercodebender/guestbook:latest
+      - image: ghcr.io/akuity/guestbook:latest
         name: guestbook-simple
         ports:
         - name: http
