@@ -10,3 +10,6 @@ images:
 - name: ghcr.io/zvercodebender/guestbook
   newName: ghcr.io/zvercodebender/guestbook
   newTag: v0.0.1
+
+patchesStrategicMerge:
+- replica-patch.yaml
